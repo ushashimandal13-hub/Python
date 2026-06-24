@@ -1,0 +1,11 @@
+print("Enter first number: ")
+num1 = int(input())
+print("Enter second number: ")
+num2 = int(input())
+print("Enter your choice\n1.add: \n2.sub: \n3.multiplication: ")
+ch=int(input())
+match ch:
+	case 1:print("Add=",num1+num2)
+	case 2:print("sub=",num1-num2)
+	case 3:print("mult=",num1*num2)
+	case _:print("invalid choice ")
