@@ -1,4 +1,3 @@
-# Nested dictionary
 student = {
     "name": "Ushashi",
     "age": 20,
@@ -9,9 +8,6 @@ student = {
         "Country": "USA"
     }
 }
-print(student)
-print(student["address"])
-print(student["address"]["city"])
-print(len(student))
-print(len(student["address"]))  
-print(list(student.keys()))       
+print(student.items())
+pairs = list(student.items())
+print(pairs[1])
