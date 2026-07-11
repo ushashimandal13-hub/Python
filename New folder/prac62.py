@@ -1,0 +1,5 @@
+print("Enter dict data")
+d = eval(input())
+print(d)
+d.pop()
+print(d)

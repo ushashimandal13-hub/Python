@@ -13,5 +13,5 @@ print(student)
 print(student["address"])
 print(student["address"]["city"])
 print(len(student))
-print(len(student["address"]))  
-print(list(student.keys()))       
+print(len(student["address"]))
+       
