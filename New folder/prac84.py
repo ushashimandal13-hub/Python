@@ -1,0 +1,20 @@
+import numpy as np
+a=np.array([10,20,30,40])
+print(a*2)
+print()
+a=np.array([10,20,30])
+print(type(a))
+print()
+a=np.zeros(5)
+print(a)
+print()
+import numpy as np
+a=np.empty(5)
+print(a)
+print()
+a=np.arange(1,11)
+print(a)
+print()
+import numpy as np
+a = np.linspace(1, 10, 5)
+print(a)
