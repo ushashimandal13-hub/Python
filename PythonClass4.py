@@ -38,7 +38,7 @@ for i in [1,5,7,9]:
 o/p:
 1
 5
-7
+7d
 9
 
 display 1 to 10
